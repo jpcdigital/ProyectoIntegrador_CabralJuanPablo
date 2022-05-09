@@ -1,0 +1,14 @@
+PASOS PARA TRABAJAR EN EL PROYECTO.
+
+1) Levantar git hub desktop
+2) Iniciar visual estudio code
+
+Todos los cambios se pueden guardar desde VSC o bien desde GH Desktop desde "commit to main" (obligatorio el comentario en "summary")
+
+luego para subir al remoto "fetch origin" (tercera solapa"
+
+3) levantar el ng serve (localhost)
+
+*Abrir una nueva terminal en VSC
+* En la carpeta del proyecto (ej: PS C:\Users\Juan\Desktop\Juan\ProyectoIntegrador_CabralJuanPablo\ProyectoIntegrador_CabralJuanPablo> ) poner el comando NG SERVE (esperar que compile)
+
