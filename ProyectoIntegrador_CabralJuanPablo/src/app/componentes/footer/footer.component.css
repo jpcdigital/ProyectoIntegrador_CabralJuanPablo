@@ -3,6 +3,7 @@
 }
 
 footer{
+    padding: 10px;
     color: #000;
     font-size: 14px;
     display: flex;
