@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 
 /**
  *
- * @author Juan
+ * @author Usuario
  */
 public class LoginUsuario {
     @NotBlank
@@ -17,7 +17,7 @@ public class LoginUsuario {
     @NotBlank
     private String password;
     
-    //Getter y Setter
+    //Getter & Setter
 
     public String getNombreUsuario() {
         return nombreUsuario;
@@ -34,6 +34,5 @@ public class LoginUsuario {
     public void setPassword(String password) {
         this.password = password;
     }
-    
     
 }

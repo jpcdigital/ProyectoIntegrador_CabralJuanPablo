@@ -7,7 +7,7 @@ package com.portfolio.jpc.Security.Enums;
 
 /**
  *
- * @author Juan
+ * @author Usuario
  */
 public enum RolNombre {
     ROLE_ADMIN, ROLE_USER

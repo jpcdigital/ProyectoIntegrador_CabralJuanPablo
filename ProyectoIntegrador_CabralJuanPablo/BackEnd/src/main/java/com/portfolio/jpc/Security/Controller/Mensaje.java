@@ -7,12 +7,12 @@ package com.portfolio.jpc.Security.Controller;
 
 /**
  *
- * @author Juan
+ * @author Usuario
  */
 public class Mensaje {
-   private String mensaje;
-   
-   //constructor
+    private String mensaje;
+    
+    //Constructor
 
     public Mensaje() {
     }
@@ -20,7 +20,7 @@ public class Mensaje {
     public Mensaje(String mensaje) {
         this.mensaje = mensaje;
     }
-   //Getter y Setter
+    //Getter y Setter
 
     public String getMensaje() {
         return mensaje;

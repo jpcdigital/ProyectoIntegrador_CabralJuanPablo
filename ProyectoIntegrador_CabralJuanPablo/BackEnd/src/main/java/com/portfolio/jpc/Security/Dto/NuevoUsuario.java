@@ -10,7 +10,7 @@ import java.util.Set;
 
 /**
  *
- * @author Juan
+ * @author Usuario
  */
 public class NuevoUsuario {
     private String nombre;
@@ -19,7 +19,7 @@ public class NuevoUsuario {
     private String password;
     private Set<String> roles = new HashSet<>();
     
-    //Getter & Setter
+    //Gettes & Setters
 
     public String getNombre() {
         return nombre;

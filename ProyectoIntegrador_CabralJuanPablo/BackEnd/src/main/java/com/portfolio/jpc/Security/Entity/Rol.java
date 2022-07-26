@@ -6,7 +6,6 @@
 package com.portfolio.jpc.Security.Entity;
 
 import com.portfolio.jpc.Security.Enums.RolNombre;
-import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -16,16 +15,15 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Rol implements Serializable {
+public class Rol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @NotNull
-    @Enumerated(EnumType.STRING )
+    @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
     
-    //constructor
-
+    //Constructor
     public Rol() {
     }
 
@@ -50,5 +48,6 @@ public class Rol implements Serializable {
     public void setRolNombre(RolNombre rolNombre) {
         this.rolNombre = rolNombre;
     }
+    
     
 }
