@@ -1,3 +1,11 @@
+.card.mat-card {
+    border-radius: 40px;
+    margin: 10px 10px;
+    padding: 10px;
+    border-color: #0a66c2;
+    background-color: aliceblue;
+}
+
 .row{
     background-color: aliceblue;
     padding: 20px;
